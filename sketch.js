@@ -86,12 +86,12 @@ function setup() {
 
     setupGeo();
 
-    loadShader("/shaders/particle.vert","/shaders/particle.frag",particleShaderLoaded);
-    loadShader("/shaders/quad.vert","/shaders/makeField.frag",makeFieldShaderLoaded);
-    loadShader("/shaders/quad.vert","/shaders/updateParticles.frag",updateParticleShaderLoaded);
-    loadShader("/shaders/quad.vert","/shaders/copy.frag",copyShaderLoaded);
-    loadShader("/shaders/quad.vert","/shaders/initParticle.frag",initParticleTex);
-    loadShader("/shaders/vert.vert","/shaders/renderField.frag",renderFieldLoaded);
+    loadShader("./shaders/particle.vert","./shaders/particle.frag",particleShaderLoaded);
+    loadShader("./shaders/quad.vert","./shaders/makeField.frag",makeFieldShaderLoaded);
+    loadShader("./shaders/quad.vert","./shaders/updateParticles.frag",updateParticleShaderLoaded);
+    loadShader("./shaders/quad.vert","./shaders/copy.frag",copyShaderLoaded);
+    loadShader("./shaders/quad.vert","./shaders/initParticle.frag",initParticleTex);
+    loadShader("./shaders/vert.vert","./shaders/renderField.frag",renderFieldLoaded);
 }
 
 function draw() {
